@@ -1,0 +1,32 @@
+# Ignorar claves API y configuración sensible
+.env
+*.env
+*.secret
+
+# Archivos de Flutter que no deben subirse
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+.packages
+.pub-cache/
+.pub/
+ios/Pods/
+android/.gradle/
+android/app/debug.keystore
+
+# Archivos de sistema innecesarios
+*.log
+*.lock
+.DS_Store
+Thumbs.db
+
+# Archivos generados por IDEs
+.idea/
+.vscode/
+*.iml
+
+# Ignorar el entorno virtual de Python (si lo tienes en el mismo proyecto)
+.venv/
+venv/
