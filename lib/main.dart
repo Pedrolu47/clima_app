@@ -26,7 +26,7 @@ class WeatherScreen extends StatefulWidget {
 class _WeatherScreenState extends State<WeatherScreen> {
   late Future<Weather> futureWeather;
   final TextEditingController cityController = TextEditingController();
-  final String apiKey = '84f4b2cddef0b12a62e1b84732df55c1'; // Reemplaza con tu API key
+  final String apiKey = 'Tu_api_key'; // Reemplaza con tu API key
 
   @override
   void initState() {
